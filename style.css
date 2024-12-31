@@ -1,0 +1,146 @@
+body{
+    background-color:#030329;
+    color: #ffffff;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 0px;
+    margin: 0px;
+}
+
+header{
+    padding: 1vw;
+    font-size: 2vw;
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between;
+    align-items: center;
+    align-content: center; 
+    text-align: center;
+    /* background-color: #00ff7b; */
+    /* max-width: 100%; */
+
+} 
+header a{
+    text-decoration: none;
+    font-weight:bold;
+    color:#ff00f2;
+}
+
+/* Media Query */
+@media Screen and (max-width:800px){
+    header{ 
+        /* background-color: #480606;  */
+        background-color: #0c0c50;
+    }
+    header .logo{
+        background-color:#0c0c50;
+        padding: 10px;
+        color: #ff7300;
+    }
+    header a, .git{
+        display:flex;
+        flex-direction:column;
+    }
+
+    header nav a:hover{
+        background-color: #000;
+    }
+    header nav a{
+        font-size: 20px;
+        color: #ff7300;
+    }
+    header .git a{
+        padding: 10px;
+    }
+    footer{
+        color: #000;
+    }
+      
+}
+nav a{
+    /* text-transform: capitalize;  */
+    padding-left: 1vw;
+    padding-right: 2vw;
+}
+nav a:hover{
+    background: #480606; 
+    /* position:absolute; */
+}
+.git img{
+    height: 3vw;
+    width: auto;
+}
+main{
+    padding: 1vw;
+    display: flex;
+    flex-direction: row;
+    min-height:60vw; 
+    /* min-height:60vh;  */
+    max-width: 100%;
+    /* background-color: #ff00f2; */
+    /* justify-content:space-around;  */
+
+}
+
+.image img{ 
+    /* height:70vh; */
+    height: auto;
+    max-width: 100%;
+    width:2000px;
+    border-radius:30px;
+    /* background-color: aqua; */
+    /* display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center; */
+}
+.text,.image{ 
+    align-content: center;
+    padding: 10px;
+}
+
+.text h1,h4{
+    text-align: center;
+    padding: 5px; 
+}
+.text{
+    padding-right: 50px;
+}
+.text p{
+    font-size:10px;
+}
+
+
+footer{
+    background-color: #0c0c50;
+    padding: 2vw; 
+    color: #ff00f2;
+    text-align: center;
+    font-weight: bold;
+}
+.logo{
+    /* font-weight:bold; */
+    font-size: 6vw;
+    color:#ff00f2;
+    font-family:monospace;
+    background-color: #030329;
+}
+
+button{
+    background-color: #ffffff; 
+    padding: 1vw; 
+    border-radius: 10px;
+    border: none;
+    margin: 2vw;
+
+}
+button:hover{
+    background: #000; 
+}
+button a{
+    text-decoration:none;
+    font-weight:bold;
+
+}
+
+
